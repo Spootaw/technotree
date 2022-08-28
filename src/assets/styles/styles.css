@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: #f1f1f1;
+}
+
+.image-fluid {
+  object-fit: cover;
+  height: 442px;
+  width: 565px;
+  object-position: center;
+  border-radius: 10px;
+}
+.gallery-container {
+  min-height: 500px;
+}
